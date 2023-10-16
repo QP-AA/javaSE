@@ -11,11 +11,9 @@
             "id": "415b80b13d800b34",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "java/第18章_JDK8-17新特性（下）.md",
-                "mode": "source",
-                "source": false
+                "file": "mysql/第02章_MySQL环境搭建.pdf"
               }
             }
           }
@@ -93,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/第18章_JDK8-17新特性（下）.md",
+                "file": "mysql/第02章_MySQL环境搭建.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "java/第18章_JDK8-17新特性（下）.md",
+                "file": "mysql/第02章_MySQL环境搭建.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java/第18章_JDK8-17新特性（下）.md"
+                "file": "mysql/第02章_MySQL环境搭建.pdf"
               }
             }
           },
@@ -176,6 +174,10 @@
   },
   "active": "415b80b13d800b34",
   "lastOpenFiles": [
+    "mysql/第01章_数据库概述.pdf",
+    "mysql/第02章_MySQL环境搭建.pdf",
+    "java/第18章_JDK8-17新特性（下）.md",
+    "mysql",
     "java/第18章_JDK8-17新特性（上）.md",
     "images/第3阶段：Java高级应用-第18章-1670946711240.png",
     "images/第3阶段：Java高级应用-第18章.png",
@@ -187,7 +189,6 @@
     "images/image-20220529003920290.png",
     "images/image-20220528212421319.png",
     "images/image-20220528212414676.png",
-    "java/第18章_JDK8-17新特性（下）.md",
     "java/第17章_反射机制.md",
     "java/第16章_网络编程.md",
     "c++/Object Model.md",
@@ -220,8 +221,6 @@
     "高性能服务器",
     "低光照",
     "AIGC",
-    "golang",
-    "去模糊",
-    "研究生课程"
+    "golang"
   ]
 }
