@@ -1,0 +1,5 @@
+- **ArrayList和LinkedList的底层原理和区别**
+- **HashMap的底层原理**
+- **ConcurrentHashMap的底层原理**
+- **synchronized和voliate的区别**
+- 

@@ -13,11 +13,24 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "mysql/第02章_MySQL环境搭建.pdf"
+                "file": "mysql/第06章_多表查询.pdf"
+              }
+            }
+          },
+          {
+            "id": "26648fb545e53e19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面经/java基础.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -91,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mysql/第02章_MySQL环境搭建.pdf",
+                "file": "面经/java基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mysql/第02章_MySQL环境搭建.pdf",
+                "file": "面经/java基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mysql/第02章_MySQL环境搭建.pdf"
+                "file": "面经/java基础.md"
               }
             }
           },
@@ -172,10 +185,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "415b80b13d800b34",
+  "active": "26648fb545e53e19",
   "lastOpenFiles": [
-    "mysql/第01章_数据库概述.pdf",
+    "mysql/第06章_多表查询.pdf",
+    "面经/java基础.md",
+    "面经",
+    "mysql/第05章_排序与分页.pdf",
+    "mysql/第04章_运算符.pdf",
+    "mysql/第03章_基本的SELECT语句.pdf",
     "mysql/第02章_MySQL环境搭建.pdf",
+    "mysql/第01章_数据库概述.pdf",
     "java/第18章_JDK8-17新特性（下）.md",
     "mysql",
     "java/第18章_JDK8-17新特性（上）.md",
@@ -212,15 +231,8 @@
     "java/第11章_常用类和基础API.md",
     "java/第10章_多线程.md",
     "images",
-    "images/image-20220513235020527.png.md",
     "java/images",
-    "java/第06章_面向对象编程（基础）.pdf",
-    "java",
     "未命名.canvas",
-    "未命名 1.canvas",
-    "高性能服务器",
-    "低光照",
-    "AIGC",
-    "golang"
+    "未命名 1.canvas"
   ]
 }
