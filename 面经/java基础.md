@@ -1,4 +1,6 @@
 - **ArrayList和LinkedList的底层原理和区别**
+	- ArrayList和LinkedList都是`Collection`接口中`List`子接口的实现类，用来存放有序的、可以重复的数据（主要用于替换数组，是一种“动态”的数组“
+	- ArrayList底层使用**动态数组**存储元素。可以通过索引快速访问元素。线程不安全，效率高。而LinkedList底层使用**双向链表** 存储元素
 - **HashMap的底层原理**
 - **ConcurrentHashMap的底层原理**
 - **synchronized和voliate的区别**

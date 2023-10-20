@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/java基础/第02章_变量与运算符.md",
+                "file": "java/JDBC/核心API.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/java基础/第02章_变量与运算符.md",
+                "file": "java/JDBC/核心API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "java/java基础/第02章_变量与运算符.md",
+                "file": "java/JDBC/核心API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java/java基础/第02章_变量与运算符.md"
+                "file": "java/JDBC/核心API.md"
               }
             }
           },
@@ -174,8 +174,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "65f321a02a37a28f",
+  "active": "26648fb545e53e19",
   "lastOpenFiles": [
+    "java/java基础/第15章_File类与IO流.md",
+    "java/JDBC/核心API.md",
+    "java/JDBC",
+    "java/java基础/第18章_JDK8-17新特性（上）.md",
+    "java/java基础/第03章_流程控制语句.md",
+    "java/java基础/第02章_变量与运算符.md",
     "mysql/知识点.md",
     "java/java基础",
     "mysql/第10章_创建和管理表.pdf",
@@ -186,12 +192,10 @@
     "mysql/第03章_基本的SELECT语句.pdf",
     "mysql/第02章_MySQL环境搭建.pdf",
     "mysql/第01章_数据库概述.pdf",
-    "mysql/第06章_多表查询.pdf",
     "java/java基础/第14章_数据结构与集合源码.md",
     "面经/java基础.md",
     "java/java基础/第12章_集合框架.md",
     "java/java基础/第18章_JDK8-17新特性（下）.md",
-    "java/java基础/第18章_JDK8-17新特性（上）.md",
     "images/第3阶段：Java高级应用-第18章-1670946711240.png",
     "images/第3阶段：Java高级应用-第18章.png",
     "images/lambda表达式.jpg",
@@ -213,14 +217,11 @@
     "c++/specialization, 模板特化.md",
     "c++/reference.md",
     "c++/markdown学习笔记.md",
-    "java/java基础/第15章_File类与IO流.md",
     "低光照/Heat-assisted detection and ranging.md",
-    "java/java基础/第02章_变量与运算符.md",
     "java/未命名.md",
     "obsidian.md",
     "高光谱图像降噪/高光谱图像降噪相关知识.md",
     "java/java基础/第13章_泛型.md",
-    "java/java基础/第11章_常用类和基础API.md",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
