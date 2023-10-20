@@ -11,11 +11,9 @@
             "id": "26648fb545e53e19",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "java/JDBC/核心API.md",
-                "mode": "source",
-                "source": false
+                "file": "mysql/第12章_MySQL数据类型精讲.pdf"
               }
             }
           }
@@ -93,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/JDBC/核心API.md",
+                "file": "mysql/第12章_MySQL数据类型精讲.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "java/JDBC/核心API.md",
+                "file": "mysql/第12章_MySQL数据类型精讲.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java/JDBC/核心API.md"
+                "file": "mysql/第12章_MySQL数据类型精讲.pdf"
               }
             }
           },
@@ -176,22 +174,23 @@
   },
   "active": "26648fb545e53e19",
   "lastOpenFiles": [
-    "java/java基础/第15章_File类与IO流.md",
+    "mysql/第11章_数据处理之增删改.pdf",
+    "mysql/第12章_MySQL数据类型精讲.pdf",
+    "mysql/知识点.md",
+    "mysql/第10章_创建和管理表.pdf",
     "java/JDBC/核心API.md",
+    "java/java基础/第15章_File类与IO流.md",
     "java/JDBC",
     "java/java基础/第18章_JDK8-17新特性（上）.md",
     "java/java基础/第03章_流程控制语句.md",
     "java/java基础/第02章_变量与运算符.md",
-    "mysql/知识点.md",
     "java/java基础",
-    "mysql/第10章_创建和管理表.pdf",
     "面经/《Java 面试指北》 （强烈推荐！！！）.pdf",
     "mysql/第09章_子查询.pdf",
     "mysql/第08章_聚合函数.pdf",
     "mysql/第07章_单行函数.pdf",
     "mysql/第03章_基本的SELECT语句.pdf",
     "mysql/第02章_MySQL环境搭建.pdf",
-    "mysql/第01章_数据库概述.pdf",
     "java/java基础/第14章_数据结构与集合源码.md",
     "面经/java基础.md",
     "java/java基础/第12章_集合框架.md",
@@ -221,7 +220,6 @@
     "java/未命名.md",
     "obsidian.md",
     "高光谱图像降噪/高光谱图像降噪相关知识.md",
-    "java/java基础/第13章_泛型.md",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
