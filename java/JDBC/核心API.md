@@ -6,6 +6,7 @@
 		- **url** : 语法：`jdbc:mysql://ip:Port/database` 
 		- **Properties info** : 存储账号和密码， 需要创建对象
 - `Statement`,`PreparedStatement`, `CallableStatement` 
+	- `ResultSet` : 包含数据库返回的数据。内部包含游标，可以用`next` 进行移动，`next`返回值为true或者false。
 - `Result`
 ## 使用路线
 ![jdbc](jdbc01.png)
