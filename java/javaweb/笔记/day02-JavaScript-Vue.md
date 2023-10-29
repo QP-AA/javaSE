@@ -1399,12 +1399,6 @@ BOM中提供了如下5个对象：
 | History   | 历史记录对象   |
 | Location  | d地址栏对象    |
 
-上述5个对象与浏览器各组成对应的关系如下图所示：
-
-![](assets/image-20210815194911914.png) 
-
-对于上述5个对象，我们重点学习的是Window对象、Location对象这2个。
-
 
 
 #### 1.5.2.1 Window对象
@@ -1455,10 +1449,6 @@ window也提供了一些常用的函数，如下表格所示：
   </script>
   ~~~
 
-  浏览器打开，依次弹框，此处只截图一张
-
-  ![1668794735581](assets/1668794735581.png) 
-
   
 
 - confirm()函数：弹出确认框，并且提供用户2个按钮，分别是确认和取消。
@@ -1468,10 +1458,6 @@ window也提供了一些常用的函数，如下表格所示：
   ~~~js
   confirm("您确认删除该记录吗?");
   ~~~
-
-  浏览器打开效果如图所示：
-
-  ![1668794898891](assets/1668794898891.png) 
 
   但是我们怎么知道用户点击了确认还是取消呢？所以这个函数有一个返回值，当用户点击确认时，返回true，点击取消时，返回false。我们根据返回值来决定是否执行后续操作。修改代码如下：再次运行，可以查看返回值true或者false
 
@@ -1497,9 +1483,6 @@ window也提供了一些常用的函数，如下表格所示：
   },2000);
   ~~~
 
-  刷新页面，浏览器每个一段时间都会在控制台输出，结果如下：
-
-  ![1668795435780](assets/1668795435780.png) 
 
 - setTimeout(fn,毫秒值) ：定时器，只会在一段时间后**执行一次功能**。参数和上述setInterval一致
 
@@ -1527,9 +1510,6 @@ alert(location.href);
 location.href = "https://www.itcast.cn";
 ~~~
 
-浏览器效果如下：首先弹框展示浏览器地址栏信息，
-
-![1668796236628](assets/1668796236628.png) 
 
 然后点击确定后，因为我们设置了地址栏信息，所以浏览器跳转到传智首页
 
@@ -1597,10 +1577,6 @@ DOM 其实我们并不陌生，之前在学习 XML 就接触过，只不过 XML 
 - Attribute：属性对象
 - Text：文本对象
 - Comment：注释对象
-
-如下图，左边是 HTML 文档内容，右边是 DOM 树
-
-![1668796698067](assets/1668796698067.png) 
 
 那么我们学习DOM技术有什么用呢？主要作用如下：
 
@@ -1673,8 +1649,6 @@ HTML中的Element对象可以通过Document对象获取，而Document对象是�
 
   浏览器打开，效果如图所示：从弹出的结果能够看出，这是一个图片标签对象
 
-  ![1668798266255](assets/1668798266255.png) 
-
 - document.getElementsByTagName() :  根据标签的名字获取标签对象，同名的标签有很多，所以返回值是数组。
 
   添加如下代码:
@@ -1687,9 +1661,6 @@ HTML中的Element对象可以通过Document对象获取，而Document对象是�
   }
   ~~~
 
-  浏览器输出2次如下所示的弹框
-
-  ![1668799227223](assets/1668799227223.png) 
 
 - document.getElementsByName() ：根据标签的name的属性值获取标签对象，name属性值可以重复，所以返回值是一个数组。
 
@@ -1703,9 +1674,6 @@ HTML中的Element对象可以通过Document对象获取，而Document对象是�
   }
   ~~~
 
-  浏览器会有3次如下图所示的弹框：
-
-  ![1668799393592](assets/1668799393592.png)  
 
 - document.getElementsByClassName() : 根据标签的class属性值获取标签对象，class属性值也可以重复，返回值是数组。
 
@@ -1721,13 +1689,9 @@ HTML中的Element对象可以通过Document对象获取，而Document对象是�
 
   浏览器会弹框2次，都是div标签对象
 
-  ![1668799564602](assets/1668799564602.png) 
-
 - 操作属性
 
   那么获取到标签了，我们如何操作标签的属性呢？通过查询文档资料，如下图所示：
-
-  ![1668800047162](assets/1668800047162.png) 
 
   得出我们可以通过div标签对象的innerHTML属性来修改标签的内容。此时我们想把页面中的**传智教育替换成传智教育666**，所以要获取2个div中的第一个，所以可以通过下标0获取数组中的第一个div，注释之前的代码，编写如下代码：
 
@@ -1740,7 +1704,6 @@ HTML中的Element对象可以通过Document对象获取，而Document对象是�
 
   浏览器刷新页面，展示效果如下图所示：
 
-  ![1668800387791](assets/1668800387791.png) 
 
   发现页面内容变成了传智教育666
 
@@ -1810,219 +1773,12 @@ HTML中的Element对象可以通过Document对象获取，而Document对象是�
 
 
 
-### 1.5.4 案例
-
-#### 1.5.4.1 需求说明
-
-鲁迅说的好，光说不练假把式,光练不说傻把式。所以接下来我们需要通过案例来加强对于上述DOM知识的掌握。需求如下3个：
-
-- 点亮灯泡
-- 将所有的div标签的标签体内容后面加上：very good
-- 使所有的复选框呈现被选中的状态
-
-效果如下所示：
-
-![1668800646200](assets/1668800646200.png) 
-
-#### 1.5.4.2 资料准备
-
-在JS目录下，也就是用于存放html文件的同级创建img文件下，然后将`资料/图片素材`中提供的2张图片拷贝到img文件夹中，最终整体结果如下图所示：
-
-![1668801302139](assets/1668801302139.png) 
-
-
-
-在VS Code中创建名为08. JS-对象-DOM-案例.html的文件，然后准备如下代码：
-
-~~~html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS-对象-DOM-案例</title>
-</head>
-
-<body>
-    <img id="h1" src="img/off.gif">  <br><br>
-
-    <div class="cls">传智教育</div>   <br>
-    <div class="cls">黑马程序员</div>  <br>
-
-    <input type="checkbox" name="hobby"> 电影
-    <input type="checkbox" name="hobby"> 旅游
-    <input type="checkbox" name="hobby"> 游戏
-</body>
-
-<script>
-  
-</script>
-</html>
-~~~
-
-浏览器打开此时效果如图所示：
-
-![1668800839720](assets/1668800839720.png) 
-
-
-
-#### 1.5.4.3 需求1
-
-- 需求
-
-  点亮灯泡
-
-- 分析
-
-  此时我们需要把灯泡点亮，其实就是换一张图片。那么我们需要切换图片，就需要操作图片的src属性。要操作图片的src属性，就需要先来获取img标签对象。
-
-- 步骤
-
-  - 首先获取img标签对象
-  - 然后修改img标签对象的src属性值，进行图片的切换
-
-- 代码实现
-
-  ~~~js
-  //1. 点亮灯泡 : src 属性值
-  //首先获取img标签对象
-  var img = document.getElementById('h1');
-  //然后修改img标签对象的src属性值，进行图片的切换
-  img.src = "img/on.gif";
-  ~~~
-
-浏览器打开，效果如图所示：
-
-![1668801541168](assets/1668801541168.png) 
-
-
-
-#### 1.5.4.4 需求2
-
-- 需求
-
-  将所有的div标签的标签体内容后面加上：very good  
-
-  并且very good是红色字体
-
-- 分析
-
-  我们需要在原有内容后面追加红色的very good.所以我们首先需要获取原有内容，然后再进行内容的追加。但是如何保证very good是红色的呢？所以我们可以通过之前html中学过的&lt;font&gt;标签和属性来完整。如何进行内容的替换呢？之前我们学习过innerHTML属性。需要替换2个div的内容，所以我们需要获取2个div，并且遍历进行替换。
-
-- 步骤
-
-  - 通过标签的名字div获取所有的div标签
-  - 遍历所有的div标签
-  - 获取div标签的原有内容，然后追加&lt;font color='red'&gt;very good&lt;/font&gt;,并且替原内容 
-
-- 代码实现
-
-  ~~~js
-  //2. 将所有div标签的内容后面加上: very good (红色字体) -- <font color='red'></font>
-  var divs = document.getElementsByTagName('div');
-  for (let i = 0; i < divs.length; i++) {
-      const div = divs[i];
-      div.innerHTML += "<font color='red'>very good</font>"; 
-  }
-  ~~~
-
-浏览器打开效果如图所示：
-
-![1668801991368](assets/1668801991368.png) 
-
-
-
-#### 1.5.4.5 需求3
-
-- 需求
-
-  使所有的复选框呈现被选中的状态
-
-- 分析
-
-  要让复选框处于选中状态，那么什么属性或者方法可以使复选框选中？可以查询资料得出checkbox标签对象的checked属性设置为true，可以改变checkbox为选中状态。那么需要设置所有的checkbox，那么我们需要获取所有的checkbox并且遍历
-
-- 步骤
-
-  - 可以通过name属性值获取所有的checkbox标签
-  - 遍历所有的checkbox标签，
-  - 设置每个checkbox标签的
-
-- 代码实现
-
-  ~~~js
-  // //3. 使所有的复选框呈现选中状态
-  var ins = document.getElementsByName('hobby');
-  for (let i = 0; i < ins.length; i++) {
-  const check = ins[i];
-  check.checked = true;//选中
-  }
-  ~~~
-
-浏览器刷新，效果如图所示:
-
-![1668802645347](assets/1668802645347.png) 
-
-
-
-#### 1.5.4.6 完整代码
-
-~~~html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS-对象-DOM-案例</title>
-</head>
-
-<body>
-    <img id="h1" src="img/off.gif">  <br><br>
-
-    <div class="cls">传智教育</div>   <br>
-    <div class="cls">黑马程序员</div>  <br>
-
-    <input type="checkbox" name="hobby"> 电影
-    <input type="checkbox" name="hobby"> 旅游
-    <input type="checkbox" name="hobby"> 游戏
-</body>
-
-<script>
-    //1. 点亮灯泡 : src 属性值
-    var img = document.getElementById('h1');
-    img.src = "img/on.gif";
-
-
-    //2. 将所有div标签的内容后面加上: very good (红色字体) -- <font color='red'></font>
-    var divs = document.getElementsByTagName('div');
-    for (let i = 0; i < divs.length; i++) {
-        const div = divs[i];
-        div.innerHTML += "<font color='red'>very good</font>"; 
-    }
-
-
-    // //3. 使所有的复选框呈现选中状态
-    var ins = document.getElementsByName('hobby');
-    for (let i = 0; i < ins.length; i++) {
-        const check = ins[i];
-        check.checked = true;//选中
-    }
-
-</script>
-</html>
-~~~
-
-
 
 ## 1.6 JavaScript事件
 
 ### 1.6.1 事件介绍
 
 如下图所示的百度注册页面，当我们用户输入完内容，百度可以自动的提示我们用户名已经存在还是可以使用。那么百度是怎么知道我们用户名输入完了呢？这就需要用到JavaScript中的事件了。
-
-![1668802830796](assets/1668802830796.png) 
 
 什么是事件呢？HTML事件是发生在HTML元素上的 “事情”，例如：
 
@@ -2062,9 +1818,6 @@ JavaScript对于事件的绑定提供了2种方式：
   </script>
   ~~~
 
-  浏览器打开，然后点击按钮，弹框如下：
-
-  ![1668804375833](assets/1668804375833.png) 
 
   
 
@@ -2086,9 +1839,6 @@ JavaScript对于事件的绑定提供了2种方式：
 
   浏览器刷新页面，点击第二个按钮，弹框如下：
 
-  ![1668804696373](assets/1668804696373.png) 
-
-  
 
   **需要注意的是：事件绑定的函数，只有在事件被触发时，函数才会被调用。**
 
@@ -2168,12 +1918,6 @@ JavaScript对于事件的绑定提供了2种方式：
 2. 输入框鼠标聚焦后，展示小写；鼠标离焦后，展示大写。
 3. 点击 “全选”按钮使所有的复选框呈现被选中的状态，点击 “反选”按钮使所有的复选框呈现取消勾选的状态。
 
-效果如图所示：
-
-![1668806049390](assets/1668806049390.png) 
-
- 
-
 #### 1.6.4.2 资料准备
 
 在VS  Code中创建名为11. JS-事件-案例.html的文件，提前准备如下代码：
@@ -2213,10 +1957,6 @@ JavaScript对于事件的绑定提供了2种方式：
 ~~~
 
 浏览器打开如图所示：
-
-![1668806362090](assets/1668806362090.png) 
-
-
 
 #### 1.6.4.3 需求1
 
@@ -2477,13 +2217,7 @@ MVVM:其实是Model-View-ViewModel的缩写，有3个单词，具体释义如下
 - ViewModel: 数据绑定到视图，负责将数据（Model）通过JavaScript的DOM技术，将数据展示到视图（View）上
 
 如图所示就是MVVM开发思想的含义：
-
-![1668857055058](assets/1668857055058.png) 
-
 基于上述的MVVM思想，其中的Model我们可以通过Ajax来发起请求从后台获取;对于View部分，我们将来会学习一款ElementUI框架来替代HTML+CSS来更加方便的搭建View;而今天我们要学习的就是侧重于ViewModel部分开发的vue前端框架，用来替代JavaScript的DOM操作，让数据展示到视图的代码开发变得更加的简单。可以简单到什么程度呢？可以参考下图对比：
-
-![1668858213508](assets/1668858213508.png) 
-
 在更加复杂的dom操作中，vue只会变得更加的简单！在上述的代码中，我们看不到之前的DOM操作，因为vue全部帮我们封装好了。
 
 
@@ -2501,8 +2235,6 @@ Vue.js（读音 /vjuː/, 类似于 **view**） 是一套构建用户界面的 **
 接下来我们通过一个vue的快速入门案例，来体验一下vue。
 
 第一步：在VS Code中创建名为12. Vue-快速入门.html的文件，并且在html文件同级创建js目录，将**资料/vue.js文件**目录下得vue.js拷贝到js目录，如下图所示：
-
-![1668858952627](assets/1668858952627.png) 
 
 第二步：然后编写&lt;script&gt;标签来引入vue.js文件，代码如下：
 
@@ -2542,11 +2274,6 @@ Vue.js（读音 /vjuː/, 类似于 **view**） 是一套构建用户界面的 **
 ~~~
 
 浏览器打开效果如图所示：
-
-![1668859214102](assets/1668859214102.png) 
-
-
-
 整体代码如下：
 
 ~~~html
@@ -2913,10 +2640,6 @@ v-on: 用来给html标签绑定事件的。**需要注意的是如下2点**：
 <span v-else>老年人(60及以上)</span>
 ~~~
 
-浏览器打开测试效果如下图：
-
-![1668864281939](assets/1668864281939.png) 
-
 v-show和v-if的作用效果是一样的，只是原理不一样。复制上述html代码，修改v-if指令为v-show指令，代码如下：
 
 ~~~html
@@ -2925,10 +2648,6 @@ v-show和v-if的作用效果是一样的，只是原理不一样。复制上述h
 <span v-show="age > 35 && age < 60">中年人(35-60)</span>
 <span v-show="age >= 60">老年人(60及以上)</span>
 ~~~
-
-打开浏览器，展示效果如下所示：
-
-![1668864558419](assets/1668864558419.png) 
 
 可以发现，浏览器呈现的效果是一样的，但是浏览器中html源码不一样。v-if指令，不满足条件的标签代码直接没了，而v-show指令中，不满足条件的代码依然存在，只是添加了css样式来控制标签不去显示。
 

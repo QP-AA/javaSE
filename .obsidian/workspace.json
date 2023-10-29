@@ -174,8 +174,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "65f321a02a37a28f",
+  "active": "26648fb545e53e19",
   "lastOpenFiles": [
+    "java/javaweb/笔记/day03_Vue_Element.md",
     "高光谱图像降噪/高光谱图像降噪相关知识.md",
     "java/javaweb/笔记/day02-JavaScript-Vue.md",
     "java/JDBC/核心API.md",
@@ -221,7 +222,6 @@
     "java/java基础/第18章_JDK8-17新特性（下）.md",
     "java/java基础/第17章_反射机制.md",
     "java/java基础/第16章_网络编程.md",
-    "c++/Object Model.md",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
