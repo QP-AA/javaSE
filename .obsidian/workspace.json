@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/JDBC/核心API.md",
+                "file": "java/javaweb/笔记/day02-JavaScript-Vue.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/JDBC/核心API.md",
+                "file": "java/javaweb/笔记/day02-JavaScript-Vue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "java/JDBC/核心API.md",
+                "file": "java/javaweb/笔记/day02-JavaScript-Vue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java/JDBC/核心API.md"
+                "file": "java/javaweb/笔记/day02-JavaScript-Vue.md"
               }
             }
           },
@@ -174,54 +174,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "26648fb545e53e19",
+  "active": "65f321a02a37a28f",
   "lastOpenFiles": [
-    "Pasted image 20231024205346.png",
-    "images/jdbc02.png",
-    "images/tmpCC04.png",
-    "images/jdbc01.png",
+    "高光谱图像降噪/高光谱图像降噪相关知识.md",
+    "java/javaweb/笔记/day02-JavaScript-Vue.md",
     "java/JDBC/核心API.md",
-    "images/tmp9FF1.png",
-    "mysql/第17章_触发器.pdf",
-    "mysql/第16章_变量、流程控制与游标.pdf",
+    "java/javaweb/02_第二章 HTML&CSS.md",
+    "java/javaweb/code/data/img/news_logo.png",
+    "java/javaweb/code/data/img/huawei.jpg",
+    "java/javaweb/code/data/img/alibaba.jpg",
+    "java/javaweb/code/data/img/9.jpg",
+    "java/javaweb/code/data/img/8.jpg",
+    "java/javaweb/code/data/img/7.jpg",
+    "java/javaweb/code/data/img/6.jpg",
+    "java/javaweb/code/data/img/5.jpg",
+    "java/javaweb/code/data/img/2.jpg",
+    "java/javaweb/code/data/img/4.jpg",
+    "java/javaweb/code/data/video/1.mp4",
+    "java/javaweb/code/data/audio/1.mp3",
+    "java/javaweb/code/data/新浪新闻原页面.txt",
+    "java/javaweb/code/data/img",
+    "java/javaweb/code/data/video",
+    "java/javaweb/code/data/audio",
+    "java/javaweb/code/css/news.css",
+    "java/javaweb/code/newsTitle.html",
+    "java/javaweb/code/newsStyle.html",
+    "java/javaweb/code/data",
+    "java/javaweb/笔记/08_第八章 微头条项目开发.md",
+    "java/javaweb/笔记/07_第七章 前端工程化.md",
+    "java/javaweb/笔记/06_第六章 会话_过滤器_监听器.md",
+    "java/javaweb/笔记/05_第五章 Servlet.md",
+    "java/javaweb/笔记/04_第四章 XML_Tomcat_HTTP.md",
+    "java/javaweb/笔记/03_第三章 JavaScript.md",
+    "java/javaweb/笔记/02_第二章 HTML&CSS.md",
+    "java/javaweb/笔记/01_第一章 概述.md",
+    "javaweb/02_第二章 HTML&CSS.md",
     "低光照/Heat-assisted detection and ranging.md",
     "mysql/知识点.md",
-    "mysql/第15章_存储过程与函数.pdf",
-    "mysql/第14章_视图.pdf",
-    "mysql/第13章_约束.pdf",
-    "mysql/第12章_MySQL数据类型精讲.pdf",
-    "mysql/第11章_数据处理之增删改.pdf",
-    "mysql/第10章_创建和管理表.pdf",
     "java/java基础/第15章_File类与IO流.md",
-    "java/JDBC",
     "java/java基础/第18章_JDK8-17新特性（上）.md",
     "java/java基础/第03章_流程控制语句.md",
     "java/java基础/第02章_变量与运算符.md",
-    "java/java基础",
     "java/java基础/第14章_数据结构与集合源码.md",
     "面经/java基础.md",
     "java/java基础/第12章_集合框架.md",
     "java/java基础/第18章_JDK8-17新特性（下）.md",
-    "images/第3阶段：Java高级应用-第18章-1670946711240.png",
-    "images/第3阶段：Java高级应用-第18章.png",
-    "images/lambda表达式.jpg",
-    "images/jdkxintexing.jpg",
-    "images/image-20221213235332866.png",
-    "images/image-20221111213355625.png",
     "java/java基础/第17章_反射机制.md",
     "java/java基础/第16章_网络编程.md",
     "c++/Object Model.md",
-    "c++/c++11.md",
-    "c++/ACM板子.md",
-    "c++/面向对象高级编程.md",
-    "c++/泛型编程.md",
-    "c++/template template parameter, 模板，模板参数.md",
-    "c++/specialization, 模板特化.md",
-    "c++/reference.md",
-    "c++/markdown学习笔记.md",
-    "java/未命名.md",
-    "obsidian.md",
-    "高光谱图像降噪/高光谱图像降噪相关知识.md",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
