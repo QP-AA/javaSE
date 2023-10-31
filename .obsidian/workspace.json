@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/javaweb/笔记/Maven.md",
+                "file": "java/javaweb/笔记/SpringBootWeb入门.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 313
   },
   "right": {
     "id": "330f000b0356e0ba",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/javaweb/笔记/Maven.md",
+                "file": "java/javaweb/笔记/SpringBootWeb入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "java/javaweb/笔记/Maven.md",
+                "file": "java/javaweb/笔记/SpringBootWeb入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java/javaweb/笔记/Maven.md"
+                "file": "java/javaweb/笔记/SpringBootWeb入门.md"
               }
             }
           },
@@ -176,19 +176,22 @@
   },
   "active": "26648fb545e53e19",
   "lastOpenFiles": [
-    "java/javaweb/笔记/assets/1669289623957.png",
-    "java/javaweb/笔记/assets/1669289514661.png",
-    "java/javaweb/笔记/assets/1669289410729.png",
-    "java/javaweb/笔记/assets/1669289350540.png",
-    "java/javaweb/笔记/assets/1669289187162.png",
-    "java/javaweb/笔记/assets/1669198976610.png",
-    "java/javaweb/笔记/assets/1669198893311.png",
-    "java/javaweb/笔记/assets/1669198823175.png",
-    "java/javaweb/笔记/assets/1669198630531.png",
-    "java/javaweb/笔记/assets/1669198453566.png",
-    "java/javaweb/笔记/assets/1669143781533.png",
-    "java/javaweb/笔记/day03_Vue_Element.md",
+    "java/javaweb/笔记/assets/bug1.png",
+    "java/javaweb/笔记/assets/bootstart2.png",
+    "java/javaweb/笔记/assets/bootstart1.png",
     "java/javaweb/笔记/Maven.md",
+    "java/javaweb/笔记/assets/image-20221202205318778.png",
+    "java/javaweb/笔记/assets/image-20221202205103486.png",
+    "java/javaweb/笔记/assets/image-20221202204536647.png",
+    "java/javaweb/笔记/assets/image-20221202204013113.png",
+    "java/javaweb/笔记/assets/image-20221202202305118.png",
+    "java/javaweb/笔记/assets/image-20221202201826364.png",
+    "java/javaweb/笔记/assets/image-20221202201623424.png",
+    "java/javaweb/笔记/assets/image-20221202201221136.png",
+    "java/javaweb/笔记/SpringBootWeb入门.md",
+    "java/javaweb/笔记/NodeJS安装文档.md",
+    "视频插帧/相关调研.md",
+    "java/javaweb/笔记/day03_Vue_Element.md",
     "java/javaweb/笔记/assets",
     "java/javaweb/code/vue/vue-project/node_modules/yorkie/node_modules/cross-spawn/package.json",
     "java/javaweb/code/vue/vue-project/node_modules/yorkie/package.json",
@@ -208,7 +211,6 @@
     "java/javaweb/code/vue/vue-project/node_modules/element-ui/CHANGELOG.en-US.md",
     "java/javaweb/code/vue/vue-project/node_modules/async-validator/README.md",
     "java/javaweb/code/vue/vue-project/node_modules/normalize-wheel/README.md",
-    "java/javaweb/笔记/NodeJS安装文档.md",
     "java/javaweb/code/vue/vue-project/node_modules/fast-levenshtein/README.md",
     "java/javaweb/code/vue/vue-project/node_modules/fast-levenshtein/LICENSE.md",
     "java/javaweb/code/vue/vue-project/node_modules/@aashutoshrathi/word-wrap/README.md",
@@ -220,8 +222,6 @@
     "java/javaweb/code/vue/vue-project/node_modules/espree/node_modules/acorn/README.md",
     "java/javaweb/code/vue/vue-project/node_modules/js-yaml/README.md",
     "java/javaweb/code/vue/vue-project/node_modules/@eslint/eslintrc/CHANGELOG.md",
-    "java/javaweb/code/vue/vue-project/node_modules/js-yaml/CHANGELOG.md",
-    "java/javaweb/code/vue/vue-project/node_modules/vue-eslint-parser/node_modules/eslint-scope/README.md",
     "未命名.canvas",
     "未命名 1.canvas"
   ]

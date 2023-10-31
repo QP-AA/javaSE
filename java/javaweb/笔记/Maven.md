@@ -461,12 +461,12 @@ pom.xml文件：
 
 pom文件详解：
 
-- <project> ：pom文件的根标签，表示当前maven项目
-- <modelVersion> ：声明项目描述遵循哪一个POM模型版本
+- \<project> ：pom文件的根标签，表示当前maven项目
+- \<modelVersion> ：声明项目描述遵循哪一个POM模型版本
   - 虽然模型本身的版本很少改变，但它仍然是必不可少的。目前POM模型版本是4.0.0
-- 坐标 ：<groupId>、<artifactId>、<version>
+- 坐标 ：\<groupId>、\<artifactId>、\<version>
   - 定位项目在本地仓库中的位置，由以上三个标签组成一个坐标
-- <packaging> ：maven项目的打包方式，通常设置为jar或war（默认值：jar）
+- \<packaging> ：maven项目的打包方式，通常设置为jar或war（默认值：jar）
 
 
 
@@ -504,7 +504,6 @@ Maven坐标主要组成
 
 ![image-20221201104320521](assets/image-20221201104320521.png)
 
-<img src="assets/image-20221201104906754.png" alt="image-20221201104906754" style="zoom:80%;" /> 
 
 > 说明：如果没有Maven面板，选择 View  =>  Appearance  =>  Tool Window Bars
 >
@@ -538,9 +537,9 @@ File  =>  Project Structure  =>  Modules  =>  +  =>  Import Module
 
 例如：在当前工程中，我们需要用到logback来记录日志，此时就可以在maven工程的pom.xml文件中，引入logback的依赖。具体步骤如下：
 
-1. 在pom.xml中编写<dependencies>标签
+1. 在pom.xml中编写\<dependencies>标签
 
-2. 在<dependencies>标签中使用<dependency>引入坐标
+2. 在\<dependencies>标签中使用\<dependency>引入坐标
 
 3. 定义坐标的 groupId、artifactId、version
 
@@ -579,19 +578,13 @@ File  =>  Project Structure  =>  Modules  =>  +  =>  Import Module
 
 1. 利用中央仓库搜索的依赖坐标
 
-   <img src="assets/5.gif" style="zoom:80%;" />
 
 
 
 2. 利用IDEA工具搜索依赖
 
-   <img src="assets/6.gif" style="zoom:80%;" />
-
-
 
 3. 熟练上手maven后，快速导入依赖
-
-   <img src="assets/7.gif" style="zoom:80%;" />
 
 
 
@@ -682,7 +675,7 @@ File  =>  Project Structure  =>  Modules  =>  +  =>  Import Module
 
 ![image-20221201135142706](assets/image-20221201135142706.png)
 
-如果希望限制依赖的使用范围，可以通过<scope>标签设置其作用范围。
+如果希望限制依赖的使用范围，可以通过\<scope>标签设置其作用范围。
 
 ![image-20220616123806894](assets/image-20220616123806894.png) 
 
@@ -700,7 +693,7 @@ File  =>  Project Structure  =>  Modules  =>  +  =>  Import Module
 
 scope标签的取值范围：
 
-| **scope**值     | **主程序** | **测试程序** | **打包（运行）** | **范例**    |
+| **scope值**     | **主程序** | **测试程序** | **打包（运行）** | **范例**    |
 | --------------- | ---------- | ------------ | ---------------- | ----------- |
 | compile（默认） | Y          | Y            | Y                | log4j       |
 | test            | -          | Y            | -                | junit       |
@@ -710,7 +703,7 @@ scope标签的取值范围：
 
 
 
-
+ 
 ### 4.4 生命周期
 
 #### 4.4.1 介绍
