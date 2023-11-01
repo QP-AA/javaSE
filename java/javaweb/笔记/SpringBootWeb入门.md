@@ -658,10 +658,6 @@ Tomcat服务器软件是一个免费的开源的web应用服务器。是Apache�
 
 Tomcat的官网: https://tomcat.apache.org/ 
 
-![image-20220824233903517](assets/image-20220824233903517.png) 
-
-
-
 
 
 
@@ -683,9 +679,6 @@ Tomcat的官网: https://tomcat.apache.org/
 
 Tomcat的软件程序  ：/资料/SpringbootWeb/apache-tomcat-9.0.27-windows-x64.zip
 
-![](assets/image-20220824234527743.png) 
-
- 
 
 
 
@@ -733,7 +726,6 @@ Tomcat的默认端口为8080，所以在浏览器的地址栏输入：`http://12
 
 > 127.0.0.1 也可以使用localhost代替。如：`http://localhost:8080`
 
-![image-20221202183550682](assets/image-20221202183550682.png)
 
 - 能看到以上图片中Apache Tomcat的内容就说明Tomcat已经启动成功
 
