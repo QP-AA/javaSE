@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/javaweb/笔记/SpringBootWeb请求响应.md",
+                "file": "java/javaweb/笔记/数据库-MySQL-03.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/javaweb/笔记/SpringBootWeb请求响应.md",
+                "file": "java/javaweb/笔记/数据库-MySQL-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "java/javaweb/笔记/SpringBootWeb请求响应.md",
+                "file": "java/javaweb/笔记/数据库-MySQL-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java/javaweb/笔记/SpringBootWeb请求响应.md"
+                "file": "java/javaweb/笔记/数据库-MySQL-03.md"
               }
             }
           },
@@ -176,20 +176,22 @@
   },
   "active": "26648fb545e53e19",
   "lastOpenFiles": [
-    "java/javaweb/笔记/assets/image-20221204185928260.png",
-    "java/javaweb/笔记/SpringBootWeb请求响应.md",
+    "java/javaweb/笔记/数据库-MySQL-01.md",
+    "java/javaweb/笔记/assets/image-20221209120107543.png",
+    "java/javaweb/笔记/assets/image-20221209115617429.png",
+    "java/javaweb/笔记/assets/image-20221209110317092.png",
+    "java/javaweb/笔记/assets/image-20221209105846211.png",
+    "java/javaweb/笔记/assets/image-20221209105119159.png",
+    "java/javaweb/笔记/assets/image-20221209100647867.png",
+    "java/javaweb/笔记/assets/image-20221208181315728.png",
+    "java/javaweb/笔记/assets/image-20221208174859866.png",
+    "java/javaweb/笔记/assets/image-20221208174135229.png",
+    "java/javaweb/笔记/assets/image-20221208153051333.png",
+    "java/javaweb/笔记/数据库-MySQL-03.md",
+    "java/javaweb/笔记/数据库-MySQL-02.md",
     "视频插帧/相关调研.md",
-    "images/EMA-VFI2.png",
-    "images/ema-vfi1.png",
+    "java/javaweb/笔记/SpringBootWeb请求响应.md",
     "java/javaweb/笔记/SpringBootWeb入门.md",
-    "java/javaweb/笔记/assets/image-20221204233637735.png",
-    "java/javaweb/笔记/assets/image-20221204233333606.png",
-    "java/javaweb/笔记/assets/image-20221204232501679.png",
-    "java/javaweb/笔记/assets/image-20221204232154445.png",
-    "java/javaweb/笔记/assets/image-20221204231616724.png",
-    "java/javaweb/笔记/assets/image-20221204225815624.png",
-    "java/javaweb/笔记/assets/image-20221204225437297.png",
-    "java/javaweb/笔记/assets/image-20221204224643683.png",
     "java/javaweb/笔记/Maven.md",
     "java/javaweb/笔记/NodeJS安装文档.md",
     "java/javaweb/笔记/day03_Vue_Element.md",
@@ -219,9 +221,6 @@
     "java/javaweb/code/vue/vue-project/node_modules/eslint/README.md",
     "java/javaweb/code/vue/vue-project/node_modules/eslint/CHANGELOG.md",
     "java/javaweb/code/vue/vue-project/node_modules/vue-router/README.md",
-    "java/javaweb/code/vue/vue-project/node_modules/vue-eslint-parser/node_modules/semver/README.md",
-    "java/javaweb/code/vue/vue-project/node_modules/espree/node_modules/acorn/README.md",
-    "java/javaweb/code/vue/vue-project/node_modules/js-yaml/README.md",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
