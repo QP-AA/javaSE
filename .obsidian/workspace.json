@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/javaweb/笔记/SpringBoot原理篇.md",
+                "file": "java/myNote/苍穹外卖.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/javaweb/笔记/SpringBoot原理篇.md",
+                "file": "java/myNote/苍穹外卖.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "java/javaweb/笔记/SpringBoot原理篇.md",
+                "file": "java/myNote/苍穹外卖.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java/javaweb/笔记/SpringBoot原理篇.md"
+                "file": "java/myNote/苍穹外卖.md"
               }
             }
           },
@@ -174,22 +174,32 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "26648fb545e53e19",
+  "active": "65f321a02a37a28f",
   "lastOpenFiles": [
-    "java/javaweb/笔记/SpringBootWeb AOP.md",
-    "java/javaweb/笔记/assets/image-20230129090835964.png",
-    "java/javaweb/笔记/assets/image-20230116011501201.png",
-    "java/javaweb/笔记/assets/image-20230116011039611.png",
-    "java/javaweb/笔记/assets/image-20230116010731914.png",
-    "java/javaweb/笔记/assets/image-20230116005530815.png",
-    "java/javaweb/笔记/assets/image-20230116004957697.png",
-    "java/javaweb/笔记/assets/image-20230116003513900.png",
-    "java/javaweb/笔记/assets/image-20230116003046768.png",
-    "java/javaweb/笔记/assets/image-20230116002747681.png",
-    "java/javaweb/笔记/assets/image-20230116002442736.png",
-    "java/javaweb/笔记/SpringBoot原理篇.md",
-    "java/javaweb/笔记/SpringBootWeb登录认证.md",
+    "java/myNote/imgs/nginx1.png",
+    "java/myNote/imgs",
+    "java/myNote/java基础.md",
+    "java/myNote/苍穹外卖.md",
+    "java/spring/spring6.md",
+    "java/myNote",
     "视频插帧/相关调研.md",
+    "images/ed2.png",
+    "images/ed1.png",
+    "images/biformer6.png",
+    "images/biformer4.png",
+    "images/biformer3.png",
+    "images/biformer2.png",
+    "images/biformer1.png",
+    "java/spring/images/spring6/img027.png",
+    "java/spring/images/spring6/img026.png",
+    "java/spring/images/spring6/img025.png",
+    "java/spring/images/spring6",
+    "java/spring/images",
+    "java/spring",
+    "java/未命名.md",
+    "java/javaweb/笔记/SpringBoot原理篇.md",
+    "java/javaweb/笔记/SpringBootWeb AOP.md",
+    "java/javaweb/笔记/SpringBootWeb登录认证.md",
     "java/javaweb/笔记/SpringBootWeb案例-2.md",
     "java/javaweb/笔记/SpringBootWeb案例-1.md",
     "java/javaweb/笔记/数据库-MySQL-01.md",
@@ -207,20 +217,11 @@
     "java/javaweb/code/vue/vue-project/node_modules/yorkie/package.json",
     "java/javaweb/code/vue/vue-project/node_modules/wrap-ansi/node_modules/color-convert/package.json",
     "java/javaweb/code/vue/vue-project/node_modules/wrap-ansi/node_modules/ansi-styles/package.json",
-    "java/javaweb/code/vue/vue-project/node_modules/webpack-bundle-analyzer/node_modules/escape-string-regexp/package.json",
-    "java/javaweb/code/vue/vue-project/node_modules/vue-loader/node_modules/ansi-styles/package.json",
-    "java/javaweb/code/vue/vue-project/node_modules/v8-compile-cache/package.json",
-    "java/javaweb/code/vue/vue-project/node_modules/uuid/package.json",
-    "java/javaweb/code/vue/vue-project/node_modules/thread-loader/package.json",
     "java/javaweb/code/vue/vue-project/node_modules/element-ui/packages/theme-chalk/README.md",
     "java/javaweb/code/vue/vue-project/node_modules/element-ui/packages/steps/README.md",
     "java/javaweb/code/vue/vue-project/node_modules/element-ui/CHANGELOG.zh-CN.md",
     "java/javaweb/code/vue/vue-project/node_modules/element-ui/CHANGELOG.fr-FR.md",
     "java/javaweb/code/vue/vue-project/node_modules/element-ui/CHANGELOG.es.md",
-    "java/javaweb/code/vue/vue-project/node_modules/throttle-debounce/README.md",
-    "java/javaweb/code/vue/vue-project/node_modules/element-ui/CHANGELOG.en-US.md",
-    "java/javaweb/code/vue/vue-project/node_modules/async-validator/README.md",
-    "java/javaweb/code/vue/vue-project/node_modules/normalize-wheel/README.md",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
